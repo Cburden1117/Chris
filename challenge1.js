@@ -5,7 +5,7 @@ let johnHeight;
 let markBMI;
 let johnBMI;
 const markHigherBMI = "Is Marks BMI is more than Johns? "
-let bmi = markBMI > johnBMI
+
 
 markMass = 78;
 markHeight = 1.69;
@@ -19,6 +19,7 @@ console.log("Johns height is " + johnHeight);
 
 markBMI = markMass / markHeight ** 2;
 johnBMI = johnMass / johnHeight ** 2;
+let bmi = markBMI > johnBMI
 console.log("Marks BMI is " + markBMI + " and " + "Johns BMI is " + johnBMI);
 console.log(markHigherBMI, bmi);
 
@@ -34,6 +35,7 @@ console.log("Johns height is " + johnHeight);
 
 markBMI = markMass / markHeight ** 2;
 johnBMI = johnMass / johnHeight ** 2;
+bmi = markBMI > johnBMI
 console.log(markHigherBMI, bmi);
 
 
