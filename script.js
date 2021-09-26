@@ -62,3 +62,49 @@ console.log(typeof null);
 
 // const averageAge = (ageChris + ageCici) / 2;
 // console.log(ageChris, ageCici, averageAge)
+
+// const firstName = "Chris";
+// const job = "machinist";
+// const birthYear = 1981;
+// const year = 2037;
+
+// const Chris = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(Chris);
+
+// const chrisNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(chrisNew);
+
+// console.log(`Back ticks are regular strings too`);
+
+// //multi line string
+
+// console.log(`String with a \n\
+// multiple \n\
+// lines`);
+
+// console.log(`Can use 
+// back ticks 
+// to create multi line
+// elements easily`);
+
+//end multi line strings
+
+const age = 15;
+
+if(age >= 18){
+    console.log('Sarah can start driving license 🚗');
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 1991;
+
+let century;
+if(birthYear <= 2000){
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
