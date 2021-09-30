@@ -1,9 +1,9 @@
-// const country = "United States of America";
-// const continent = "North America";
-// let population = 328200000;
-// let isIsland = false;
-// const language = "English";
-// let description = country + " is in " + continent + " and its " + population + " people speak " + language; 
+const country = "United States of America";
+const continent = "North America";
+let population = 328200000;
+let isIsland = false;
+const language = "English";
+let description = country + " is in " + continent + " and its " + population + " people speak " + language; 
 
 // console.log(country + " is in " + continent);
 
@@ -24,3 +24,9 @@
 // console.log("Does " + continent + " have a smaller population than the average country?")
 // console.log(population < 33000000);
 // console.log(description);
+
+if(population > 33000000){
+    console.log('United States of Americas population is above average');
+} else{
+    console.log('United States of Americas population is below average');
+}
