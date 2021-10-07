@@ -18,18 +18,33 @@ as well (draw means they have the same average score)
 // § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 // § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
-let dolphinsA = 100
-let dolphinsB = 100
-let dolphinsC = 100
-let koalasA = 100
-let koalasB = 100
-let koalasC = 100
+// let dolphinsA = 100
+// let dolphinsB = 100
+// let dolphinsC = 100
+// let koalasA = 100
+// let koalasB = 100
+// let koalasC = 100
 
-let dolphinsAVG = dolphinsA + dolphinsB + dolphinsC
-let koalasAVG = koalasA + koalasB + koalasC
+// let dolphinsAVG = dolphinsA + dolphinsB + dolphinsC
+// let koalasAVG = koalasA + koalasB + koalasC
+// console.log(dolphinsAVG, koalasAVG);
 
-if (dolphinsAVG === koalasAVG){
-    console.log("It's a tie...")
-}else if(dolphinsAVG > koalasAVG){
-    console.log("Dolphins Win!")
-} else console.log("Koalas win")
+// if (dolphinsAVG === koalasAVG){
+//     console.log("It's a tie...")
+// }else if(dolphinsAVG > koalasAVG){
+//     console.log("Dolphins Win!")
+// } else console.log("Koalas win")
+
+// const scoreDolphins = (90 + 90 + 190) / 3;
+// const scoreKoalas = (90 + 90 + 190) / 3;
+// console.log(scoreDolphins, scoreKoalas)
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100){
+//     console.log("Dolphins win")
+// } else if(scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
+//     console.log("Koalas win")
+// } else if(scoreDolphins >= 100 && scoreKoalas >= 100){
+//     console.log("It's a draw")
+// } else {
+//     console.log("Nobody wins")
+// }
